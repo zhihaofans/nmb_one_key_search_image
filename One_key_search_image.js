@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         匿名版一键搜图
 // @namespace    http://zhihaofans.com
-// @version      0.2
+// @version      0.2.1
 // @description  一键搜图(让盗图狗不再得意，让你不再为祭品信息而烦恼)
 // @author       zhihaofans
 // @match        https://h.nimingban.com/f/*
@@ -9,6 +9,7 @@
 // @grant        none
 // @note         V0.1：初始版本，只有百度，不带设置功能
 // @note         V0.2：加入谷歌、搜狗，在网页顶端有设置可以切换(设置保存在本地浏览器)
+// @note         V0.2.1：修复了编辑时编码格式错误导致乱码
 // ==/UserScript==
 var oksi_setting_show=0;
 $(document).ready(function () {
